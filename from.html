@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <form>
+            <div>
+                <label for="username">full name</label>
+                <input type="text" placeholder="Enter name" name="username" id="username" required>
+            </div><br>
+            <div>
+                <label for="password"> password</label>
+                <input type="password" placeholder="enter password" name="password" id="password" required>
+            </div><br>
+
+            <div>
+                <label for="email"> Email</label>
+                <input type="email" placeholder="enter email" name="email" id="email" required>
+            </div><br>
+            <div>
+                <select name="month">
+                    <option value="month"> month</option>
+                    <option value="january"> january</option>
+                    <option value="february"> february</option>
+                </select> 
+                <select name="days">
+                    <option value="days"> days</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <select name="years">
+                    <option value="years"> years</option>
+                    <option value="1985">1985</option>
+                    <option value="1981">1981</option>
+                    <option value="1990">1990</option>
+                    <option value="2020">2020</option>
+                </select>
+
+            </div> <br>
+            <select name="dropdown">
+                <option value="web Technology" selected>web Technology</option>
+                <option value="design and ..">design and ..</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+
+            <input type="file" name="fileupload" accept="image/*">
+            <br> <br>
+            <label for="description">Enter description</label>
+            <br>
+            <textarea id="description" rows="5" cols="50"></textarea>
+            <br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="femail">
+            <label for="femail">Female</label>
+            <br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">other</label>
+            <br> <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </center>
+</body>
+
+</html>
